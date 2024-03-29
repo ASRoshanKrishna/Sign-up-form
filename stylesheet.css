@@ -89,7 +89,6 @@ body{
     height: 40vh;
     align-self: flex-end;
     box-shadow: 5px 5px 5px #ababab;
-    
 }
 
 .two-one{
@@ -110,13 +109,13 @@ body{
 
 .row{
     display: flex;
-    gap: 30%;
+    gap: 40%;
 }
 
 input{
     padding-left: 7px;
     font-size: small;
-    width: 160%;
+    width: 180%;
     height: 150%;
     border: 2px solid #ababab;
     border-radius: 5px;
@@ -129,12 +128,12 @@ input:focus{
 }
 
 .row:nth-child(even){
-    gap: 18.5%;
+    gap: 28%;
     margin-bottom: 3%;
 }
 
 .row:nth-child(3){
-    gap: 34.5%;
+    gap: 44%;
 }
 
 #password:invalid,
@@ -146,4 +145,31 @@ input:focus{
     width: clamp(60vw,69.5vw,70vw);
     height: 27.77vh;
     align-self: flex-end;
+    padding-left: 4.5rem;
+    padding-top: 3%;
+}
+
+button{
+    width: 220px;
+    height: 60px;
+    padding: 5px 20px 5px 20px;
+    background-color: slategrey;
+    color: white;
+    font-size: large;
+    font-weight: 550;
+    border: 1px solid slategrey;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.form-3 > p{
+    font-size: large;
+    font-weight: 500;
+}
+
+a{
+    font-weight: 600;
+    font-size: large;
+    color: slategrey;
+    text-decoration: none;
 }
