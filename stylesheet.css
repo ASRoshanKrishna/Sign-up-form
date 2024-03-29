@@ -9,13 +9,15 @@
 }
 
 .container{
+    width: 100vw;
     height: 100vh;
     display: flex;
 }
 
 .imagelogo{
+    position: absolute;
     display: flex;
-    width: clamp(250px,30vw,35vw);
+    width: clamp(192px,30.7vw,50vw);
     height: 100vh;
     overflow: hidden;
 }
@@ -24,10 +26,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    position: fixed;
     background-color: rgba(0, 0, 0, 0.4);
-    font-size: 80px;
-    width: clamp(250px,30vw,35vw);
+    font-size: 70px;
+    width: clamp(191px,30.7vw,35vw);
     height: 150px;
     margin-top: 120px;
     font-family: Norse, 'Times New Roman', Times, serif;
@@ -38,9 +40,12 @@
 
 .logo{
     height: 100%;
-    width: max(23%,110px);
+    width: clamp(90px,20%,23%);
 }
 
 .form{
+    display: flex;
+    width: 100vw;
     height: 100vh;
+    background-color: orange;
 }
